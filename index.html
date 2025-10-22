@@ -1,9 +1,69 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>101 Hesapla</title>
+  <!-- Basic Page Setup -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>101 Hesapla | 101 Farklı Hesaplayıcı Tek Sayfada 🧮</title>
+
+  <!-- Primary SEO Meta Tags -->
+  <meta name="title" content="101 Hesapla | 101 Farklı Hesaplayıcı Tek Sayfada 🧮">
+  <meta name="description" content="101 Hesapla — Matematik, finans, sağlık, mühendislik, eğitim, teknoloji ve günlük yaşam için 101 farklı online hesaplayıcı. Hızlı, kolay ve eğlenceli hesaplamalar tek sayfada!">
+  <meta name="keywords" content="101hesapla, hesap makinesi, online hesaplama, faiz hesaplayıcı, BMI, mühendislik hesaplayıcı, fizik, kimya, finans hesaplama, matematik hesap makinesi, hesaplayıcı sitesi, pratik hesaplama, web calculator, 101 hesapla, pages.dev">
+  <meta name="author" content="101 Hesapla Ekibi">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://101hesapla.pages.dev/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://101hesapla.pages.dev/">
+  <meta property="og:title" content="101 Hesapla | 101 Farklı Hesaplayıcı Tek Sayfada">
+  <meta property="og:description" content="Finans, mühendislik, sağlık, eğitim ve daha birçok alanda 101 hesaplayıcı — hepsi tek sayfada!">
+  <meta property="og:image" content="https://101hesapla.pages.dev/social-preview.jpg">
+  <meta property="og:locale" content="tr_TR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="101 Hesapla | 101 Farklı Hesaplayıcı Tek Sayfada">
+  <meta name="twitter:description" content="Matematikten finansa kadar her konuda 101 hesaplayıcı!">
+  <meta name="twitter:image" content="https://101hesapla.pages.dev/social-preview.jpg">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/favicon.png">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "101 Hesapla",
+    "url": "https://101hesapla.pages.dev/",
+    "description": "101 farklı online hesaplayıcı — finans, mühendislik, sağlık, matematik, eğitim ve günlük yaşam için pratik çözümler.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "101 Hesapla",
+      "url": "https://101hesapla.pages.dev/"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://101hesapla.pages.dev/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Theme & Compatibility -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#0284c7">
+
+  <!-- Optional Performance Hints -->
+  <meta name="revisit-after" content="3 days">
+  <meta name="language" content="Turkish">
+
 <style>
   body { margin:0; font-family:sans-serif; background:#f9fafb; }
 
@@ -120,7 +180,7 @@ function toggleMenu() { document.getElementById('sidebar').classList.toggle('ope
 <section id="testimonials" style="padding:60px 20px;background:#fff;">
   <div class="container center">
     <h2 style="font-size:2em;color:#0369a1;">🗣 Kullanıcılarımız Ne Diyor?</h2>
-    <p style="opacity:0.8;margin-bottom:40px;">101 Hesapla ile hesaplamalar artık çok kolay ve eğlenceli!</p>
+    <p style="opacity:0.8;margin-bottom:40px;">>Kategorilere göre hızlıca erişebilir, istediğiniz hesaplamayı <span class="bold">anında yapabilirsiniz</p>
 
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
       <!-- Testimonial 1 -->
@@ -765,53 +825,744 @@ function calculateEduLoan(){let P=Number(document.getElementById('eduLoan').valu
 </script>
 </div> <!-- main -->
 
-<!-- ABOUT & FUN INTERACTIVE SECTION -->
-<section id="about" style="padding:60px 20px;background:#0369a1;color:white;border-radius:12px;margin:40px 0;text-align:center;">
-  <div class="container">
-    <h2 style="font-size:2em;">ℹ️ Hakkımızda</h2>
-    <p style="opacity:0.9;margin:20px 0;font-size:1.1em;">101 Hesapla, günlük ve profesyonel hesaplamalarınızı kolaylaştırmak için tasarlanmış, tamamen eğlenceli ve kullanıcı dostu bir platformdur. Tüm hesaplayıcılar <span class="bold">tek sayfada</span> ve hızlı erişim için optimize edilmiştir.</p>
-    
-    <p style="margin-top:30px;font-size:1em;">✨ Mini sürpriz: Hover yapınca sayfada <span class="bold">hesap makinesi emojileri</span> uçuşuyor!</p>
-    
-    <div id="emoji-container" style="position:relative;height:150px;"></div>
-  </div>
-</section>
+<div class="main">
 
-<!-- FOOTER -->
-<footer style="background:#02447b;color:white;padding:40px 20px;text-align:center;border-radius:12px;">
-  <div class="container">
-    <p>&copy; 2025 101 Hesapla. Tüm hakları saklıdır.</p>
-    <p><a href="#features" style="color:#facc15;">Geriye Dön</a> | <a href="#explore" style="color:#facc15;">Hesaplamaya Başla</a></p>
+<h2 id="section5">⚛️ Fizik ve Kimya Hesaplayıcıları</h2>
+<div class="calc-grid">
+
+  <!-- 49. Hız Hesaplayıcı -->
+  <div class="calculator" id="calc49">
+    <h3>🚗 Hız Hesaplayıcı</h3>
+    <p>Alınan <b>mesafe</b> ve geçen <b>zaman</b> ile hızı hesaplar.</p>
+    <input type="number" id="speedDistance" placeholder="Mesafe (m)">
+    <input type="number" id="speedTime" placeholder="Zaman (s)">
+    <button onclick="calcSpeed()">Hesapla</button>
+    <p>Hız: <span id="speedResult">0</span> m/s</p>
   </div>
+
+  <!-- 50. Kuvvet Hesaplayıcı -->
+  <div class="calculator" id="calc50">
+    <h3>💪 Kuvvet Hesaplayıcı</h3>
+    <p>Kütle ve ivme ile <b>kuvveti</b> hesaplar. (F = m × a)</p>
+    <input type="number" id="forceMass" placeholder="Kütle (kg)">
+    <input type="number" id="forceAccel" placeholder="İvme (m/s²)">
+    <button onclick="calcForce()">Hesapla</button>
+    <p>Kuvvet: <span id="forceResult">0</span> N</p>
+  </div>
+
+  <!-- 51. Enerji Hesaplayıcı -->
+  <div class="calculator" id="calc51">
+    <h3>⚡ Enerji Hesaplayıcı</h3>
+    <p>Potansiyel veya kinetik <b>enerjiyi</b> hesaplar.</p>
+    <input type="number" id="energyMass" placeholder="Kütle (kg)">
+    <input type="number" id="energyHeight" placeholder="Yükseklik (m)">
+    <button onclick="calcEnergy()">Hesapla</button>
+    <p>Enerji: <span id="energyResult">0</span> J</p>
+  </div>
+
+  <!-- 52. Basınç Hesaplayıcı -->
+  <div class="calculator" id="calc52">
+    <h3>🧱 Basınç Hesaplayıcı</h3>
+    <p><b>Kuvvet</b> ve <b>alan</b> ile basıncı hesaplar. (P = F/A)</p>
+    <input type="number" id="pressureForce" placeholder="Kuvvet (N)">
+    <input type="number" id="pressureArea" placeholder="Alan (m²)">
+    <button onclick="calcPressure()">Hesapla</button>
+    <p>Basınç: <span id="pressureResult">0</span> Pa</p>
+  </div>
+
+  <!-- 53. Yoğunluk Hesaplayıcı -->
+  <div class="calculator" id="calc53">
+    <h3>🧊 Yoğunluk Hesaplayıcı</h3>
+    <p><b>Kütle</b> ve <b>hacim</b> ile yoğunluğu hesaplar. (ρ = m/V)</p>
+    <input type="number" id="densityMass" placeholder="Kütle (kg)">
+    <input type="number" id="densityVolume" placeholder="Hacim (m³)">
+    <button onclick="calcDensity()">Hesapla</button>
+    <p>Yoğunluk: <span id="densityResult">0</span> kg/m³</p>
+  </div>
+
+  <!-- 54. İş Hesaplayıcı -->
+  <div class="calculator" id="calc54">
+    <h3>⚙️ İş Hesaplayıcı</h3>
+    <p><b>Kuvvet</b> ve <b>yer değiştirme</b> ile yapılan işi hesaplar.</p>
+    <input type="number" id="workForce" placeholder="Kuvvet (N)">
+    <input type="number" id="workDistance" placeholder="Mesafe (m)">
+    <button onclick="calcWork()">Hesapla</button>
+    <p>İş: <span id="workResult">0</span> J</p>
+  </div>
+
+  <!-- 55. Güç Hesaplayıcı -->
+  <div class="calculator" id="calc55">
+    <h3>🔋 Güç Hesaplayıcı</h3>
+    <p><b>İş</b> ve <b>zaman</b> ile gücü hesaplar. (P = W/t)</p>
+    <input type="number" id="powerWork" placeholder="İş (J)">
+    <input type="number" id="powerTime" placeholder="Zaman (s)">
+    <button onclick="calcPower()">Hesapla</button>
+    <p>Güç: <span id="powerResult">0</span> W</p>
+  </div>
+
+  <!-- 56. Elektrik Enerjisi -->
+  <div class="calculator" id="calc56">
+    <h3>💡 Elektrik Enerjisi</h3>
+    <p>Gerilim, akım ve süre ile <b>elektrik enerjisini</b> hesaplar.</p>
+    <input type="number" id="elecVolt" placeholder="Gerilim (V)">
+    <input type="number" id="elecCurr" placeholder="Akım (A)">
+    <input type="number" id="elecTime" placeholder="Zaman (s)">
+    <button onclick="calcElectric()">Hesapla</button>
+    <p>Enerji: <span id="elecResult">0</span> J</p>
+  </div>
+
+  <!-- 57. Molarite Hesaplayıcı -->
+  <div class="calculator" id="calc57">
+    <h3>🧪 Molarite Hesaplayıcı</h3>
+    <p>Çözünen madde miktarı ve hacimle <b>molariteyi</b> hesaplar.</p>
+    <input type="number" id="molSolute" placeholder="Mol sayısı (mol)">
+    <input type="number" id="molVolume" placeholder="Hacim (L)">
+    <button onclick="calcMolarity()">Hesapla</button>
+    <p>Molarite: <span id="molResult">0</span> M</p>
+  </div>
+
+  <!-- 58. Gaz Yasası -->
+  <div class="calculator" id="calc58">
+    <h3>🌬️ Gaz Yasası</h3>
+    <p>PV = nRT formülüne göre <b>gaz değişkenlerini</b> hesaplar.</p>
+    <input type="number" id="gasP" placeholder="Basınç (Pa)">
+    <input type="number" id="gasV" placeholder="Hacim (m³)">
+    <input type="number" id="gasT" placeholder="Sıcaklık (K)">
+    <button onclick="calcGas()">Hesapla</button>
+    <p>Mol sayısı: <span id="gasResult">0</span></p>
+  </div>
+
+  <!-- 59. pH Hesaplayıcı -->
+  <div class="calculator" id="calc59">
+    <h3>🧫 pH Hesaplayıcı</h3>
+    <p>H⁺ iyon konsantrasyonu ile <b>pH değerini</b> hesaplar.</p>
+    <input type="number" id="phConc" placeholder="[H⁺] mol/L" step="any">
+    <button onclick="calcPH()">Hesapla</button>
+    <p>pH: <span id="phResult">0</span></p>
+  </div>
+
+  <!-- 60. Yüzde Saflık -->
+  <div class="calculator" id="calc60">
+    <h3>🧴 Yüzde Saflık</h3>
+    <p>Saf madde miktarı ve toplam kütleyle <b>% saflığı</b> hesaplar.</p>
+    <input type="number" id="pureMass" placeholder="Saf Kütle (g)">
+    <input type="number" id="totalMass" placeholder="Toplam Kütle (g)">
+    <button onclick="calcPurity()">Hesapla</button>
+    <p>% Saflık: <span id="purityResult">0</span>%</p>
+  </div>
+
+</div>
+
+<script>
+function calcSpeed(){let d=+speedDistance.value,t=+speedTime.value;speedResult.textContent=(d/t).toFixed(2);}
+function calcForce(){forceResult.textContent=(+forceMass.value*+forceAccel.value).toFixed(2);}
+function calcEnergy(){energyResult.textContent=(+energyMass.value*9.8*+energyHeight.value).toFixed(2);}
+function calcPressure(){pressureResult.textContent=(+pressureForce.value/+pressureArea.value).toFixed(2);}
+function calcDensity(){densityResult.textContent=(+densityMass.value/+densityVolume.value).toFixed(2);}
+function calcWork(){workResult.textContent=(+workForce.value*+workDistance.value).toFixed(2);}
+function calcPower(){powerResult.textContent=(+powerWork.value/+powerTime.value).toFixed(2);}
+function calcElectric(){elecResult.textContent=(+elecVolt.value*+elecCurr.value*+elecTime.value).toFixed(2);}
+function calcMolarity(){molResult.textContent=(+molSolute.value/+molVolume.value).toFixed(2);}
+function calcGas(){const R=8.314;gasResult.textContent=((+gasP.value*+gasV.value)/(R*+gasT.value)).toFixed(2);}
+function calcPH(){phResult.textContent=(-Math.log10(+phConc.value)).toFixed(2);}
+function calcPurity(){purityResult.textContent=(+pureMass.value/+totalMass.value*100).toFixed(2);}
+</script>
+</div>
+<div class="main">
+
+<h2 id="section6">🩺 Sağlık ve Tıp Hesaplayıcıları</h2>
+<div class="calc-grid">
+
+  <!-- 61. Vücut Kitle İndeksi -->
+  <div class="calculator" id="calc61">
+    <h3>⚖️ Vücut Kitle İndeksi (BMI)</h3>
+    <p><b>Kilo</b> ve <b>boy</b> ile vücut kitle indeksini hesaplar.</p>
+    <input type="number" id="bmiWeight" placeholder="Kilo (kg)">
+    <input type="number" id="bmiHeight" placeholder="Boy (m)">
+    <button onclick="calcBMI()">Hesapla</button>
+    <p>BMI Sonuç: <span id="bmiResult">0</span></p>
+  </div>
+
+  <!-- 62. Kalori Hesaplayıcı -->
+  <div class="calculator" id="calc62">
+    <h3>🔥 Kalori Hesaplayıcı</h3>
+    <p>Yaş, kilo ve boya göre günlük <b>kalori ihtiyacını</b> hesaplar.</p>
+    <input type="number" id="calAge" placeholder="Yaş">
+    <input type="number" id="calWeight" placeholder="Kilo (kg)">
+    <input type="number" id="calHeight" placeholder="Boy (cm)">
+    <button onclick="calcCalories()">Hesapla</button>
+    <p>Kalori: <span id="calResult">0</span> kcal</p>
+  </div>
+
+  <!-- 63. Nabız -->
+  <div class="calculator" id="calc63">
+    <h3>❤️ Nabız Hesaplayıcı</h3>
+    <p>Kalp atımına göre <b>nabız bölgesini</b> hesaplar.</p>
+    <input type="number" id="pulseAge" placeholder="Yaş">
+    <button onclick="calcPulse()">Hesapla</button>
+    <p>Hedef Nabız: <span id="pulseResult">0</span> BPM</p>
+  </div>
+
+  <!-- 64. Su İhtiyacı -->
+  <div class="calculator" id="calc64">
+    <h3>💧 Su İhtiyacı</h3>
+    <p><b>Kilo</b> bilgisine göre günlük su ihtiyacını hesaplar.</p>
+    <input type="number" id="waterWeight" placeholder="Kilo (kg)">
+    <button onclick="calcWater()">Hesapla</button>
+    <p>Su: <span id="waterResult">0</span> L/gün</p>
+  </div>
+
+  <!-- 65. Yağ Oranı -->
+  <div class="calculator" id="calc65">
+    <h3>💪 Vücut Yağ Oranı</h3>
+    <p>Boy, bel ve kilo ile <b>yağ oranını</b> tahmin eder.</p>
+    <input type="number" id="fatHeight" placeholder="Boy (cm)">
+    <input type="number" id="fatWaist" placeholder="Bel (cm)">
+    <input type="number" id="fatWeight" placeholder="Kilo (kg)">
+    <button onclick="calcFat()">Hesapla</button>
+    <p>Yağ Oranı: <span id="fatResult">0</span>%</p>
+  </div>
+
+  <!-- 66. İdeal Kilo -->
+  <div class="calculator" id="calc66">
+    <h3>⚖️ İdeal Kilo</h3>
+    <p><b>Boy</b> ve <b>cinsiyet</b> ile ideal kilonuzu hesaplar.</p>
+    <input type="number" id="idealHeight" placeholder="Boy (cm)">
+    <select id="idealGender">
+      <option value="male">Erkek</option>
+      <option value="female">Kadın</option>
+    </select>
+    <button onclick="calcIdeal()">Hesapla</button>
+    <p>İdeal Kilo: <span id="idealResult">0</span> kg</p>
+  </div>
+
+  <!-- 67. Kan Basıncı -->
+  <div class="calculator" id="calc67">
+    <h3>🩸 Kan Basıncı</h3>
+    <p>Sistolik ve diyastolik değerlere göre <b>durumu</b> belirler.</p>
+    <input type="number" id="sys" placeholder="Sistolik">
+    <input type="number" id="dia" placeholder="Diyastolik">
+    <button onclick="calcBP()">Hesapla</button>
+    <p>Durum: <span id="bpResult">–</span></p>
+  </div>
+
+  <!-- 68. Kan Şekeri -->
+  <div class="calculator" id="calc68">
+    <h3>🍬 Kan Şekeri</h3>
+    <p><b>mg/dL</b> değerine göre seviyeyi belirler.</p>
+    <input type="number" id="glucose" placeholder="Kan Şekeri (mg/dL)">
+    <button onclick="calcSugar()">Hesapla</button>
+    <p>Sonuç: <span id="sugarResult">–</span></p>
+  </div>
+
+  <!-- 69. Kalp Atım Hızı -->
+  <div class="calculator" id="calc69">
+    <h3>💓 Kalp Atım Hızı</h3>
+    <p><b>Atım sayısı</b> ve <b>süre</b> ile dakikalık nabzı hesaplar.</p>
+    <input type="number" id="beats" placeholder="Atım sayısı">
+    <input type="number" id="seconds" placeholder="Süre (sn)">
+    <button onclick="calcHeartRate()">Hesapla</button>
+    <p>BPM: <span id="heartResult">0</span></p>
+  </div>
+
+  <!-- 70. Vücut Sıcaklığı -->
+  <div class="calculator" id="calc70">
+    <h3>🌡️ Vücut Sıcaklığı (Dönüştürme)</h3>
+    <p><b>Celsius ↔ Fahrenheit</b> dönüşümü yapar.</p>
+    <input type="number" id="temp" placeholder="Değer">
+    <select id="tempType">
+      <option value="C">C → F</option>
+      <option value="F">F → C</option>
+    </select>
+    <button onclick="calcTemp()">Dönüştür</button>
+    <p>Sonuç: <span id="tempResult">0</span>°</p>
+  </div>
+
+  <!-- 71. Vücut Yüzey Alanı -->
+  <div class="calculator" id="calc71">
+    <h3>📐 Vücut Yüzey Alanı</h3>
+    <p>Boy ve kilo ile <b>BSA değerini</b> hesaplar. (DuBois formülü)</p>
+    <input type="number" id="bsaHeight" placeholder="Boy (cm)">
+    <input type="number" id="bsaWeight" placeholder="Kilo (kg)">
+    <button onclick="calcBSA()">Hesapla</button>
+    <p>BSA: <span id="bsaResult">0</span> m²</p>
+  </div>
+
+  <!-- 72. Kan Alkol Oranı -->
+  <div class="calculator" id="calc72">
+    <h3>🍷 Kan Alkol Oranı</h3>
+    <p><b>Alkol miktarı</b>, kilo ve zaman ile BAC hesaplar.</p>
+    <input type="number" id="alcMl" placeholder="Alkol (ml)">
+    <input type="number" id="alcWeight" placeholder="Kilo (kg)">
+    <input type="number" id="alcHours" placeholder="Saat">
+    <button onclick="calcBAC()">Hesapla</button>
+    <p>BAC: <span id="bacResult">0</span>%</p>
+  </div>
+
+</div>
+
+<script>
+function calcBMI(){bmiResult.textContent=(+bmiWeight.value/(+bmiHeight.value**2)).toFixed(2);}
+function calcCalories(){calResult.textContent=(10*+calWeight.value+6.25*+calHeight.value-5*+calAge.value+5).toFixed(0);}
+function calcPulse(){pulseResult.textContent=(220-+pulseAge.value).toFixed(0);}
+function calcWater(){waterResult.textContent=(+waterWeight.value*0.033).toFixed(2);}
+function calcFat(){fatResult.textContent=(+fatWaist.value*0.74-+fatHeight.value*0.082-34).toFixed(2);}
+function calcIdeal(){idealResult.textContent=(idealGender.value==="male"?50+0.9*(+idealHeight.value-152):45.5+0.9*(+idealHeight.value-152)).toFixed(1);}
+function calcBP(){let s=+sys.value,d=+dia.value;bpResult.textContent=s<120&&d<80?"Normal":s<140?"Yüksek Normal":"Yüksek";}
+function calcSugar(){let g=+glucose.value;sugarResult.textContent=g<100?"Normal":g<126?"Pre-Diyabet":"Diyabet";}
+function calcHeartRate(){heartResult.textContent=(+beats.value/(+seconds.value/60)).toFixed(0);}
+function calcTemp(){let v=+temp.value;tempResult.textContent=tempType.value==="C"?(v*9/5+32).toFixed(1):( (v-32)*5/9).toFixed(1);}
+function calcBSA(){bsaResult.textContent=(0.007184*Math.pow(+bsaWeight.value,0.425)*Math.pow(+bsaHeight.value,0.725)).toFixed(2);}
+function calcBAC(){bacResult.textContent=((+alcMl.value*0.789/(+alcWeight.value*1000)*100)-0.015*+alcHours.value).toFixed(3);}
+</script>
+</div>
+
+<div class="main">
+
+<h2 id="section7">⚙️ Mühendislik ve Teknoloji Hesaplayıcıları</h2>
+<div class="calc-grid">
+
+  <!-- 73. Ohm Kanunu -->
+  <div class="calculator" id="calc73">
+    <h3>⚡ Ohm Kanunu</h3>
+    <p>Gerilim ve akım ile <b>direnci</b> hesaplar. (R = V/I)</p>
+    <input type="number" id="ohmV" placeholder="Gerilim (V)">
+    <input type="number" id="ohmI" placeholder="Akım (A)">
+    <button onclick="calcOhm()">Hesapla</button>
+    <p>Direnç: <span id="ohmResult">0</span> Ω</p>
+  </div>
+
+  <!-- 74. Gerilim Bölücü -->
+  <div class="calculator" id="calc74">
+    <h3>🔋 Gerilim Bölücü</h3>
+    <p>İki direnç ile <b>çıkış gerilimini</b> hesaplar.</p>
+    <input type="number" id="voltVin" placeholder="Giriş Gerilimi (V)">
+    <input type="number" id="voltR1" placeholder="Direnç 1 (Ω)">
+    <input type="number" id="voltR2" placeholder="Direnç 2 (Ω)">
+    <button onclick="calcVoltageDivider()">Hesapla</button>
+    <p>Vout: <span id="voltResult">0</span> V</p>
+  </div>
+
+  <!-- 75. Kondansatör Şarj Süresi -->
+  <div class="calculator" id="calc75">
+    <h3>🔌 Kondansatör Şarj Süresi</h3>
+    <p>RC devresi için <b>şarj süresini</b> hesaplar.</p>
+    <input type="number" id="capR" placeholder="Direnç (Ω)">
+    <input type="number" id="capC" placeholder="Kapasitans (F)">
+    <button onclick="calcRC()">Hesapla</button>
+    <p>τ: <span id="rcResult">0</span> s</p>
+  </div>
+
+  <!-- 76. Güç Tüketimi -->
+  <div class="calculator" id="calc76">
+    <h3>🔋 Güç Tüketimi</h3>
+    <p>Gerilim ve akım ile <b>güç tüketimini</b> hesaplar. (P = V×I)</p>
+    <input type="number" id="powerV" placeholder="V (Volt)">
+    <input type="number" id="powerI" placeholder="I (Amper)">
+    <button onclick="calcElecPower()">Hesapla</button>
+    <p>Güç: <span id="elecPowerResult">0</span> W</p>
+  </div>
+
+  <!-- 77. Isı Transferi -->
+  <div class="calculator" id="calc77">
+    <h3>🔥 Isı Transferi</h3>
+    <p>Q = m × c × ΔT formülüne göre <b>ısı miktarını</b> hesaplar.</p>
+    <input type="number" id="heatM" placeholder="Kütle (kg)">
+    <input type="number" id="heatC" placeholder="Özgül Isı (J/kg·°C)">
+    <input type="number" id="heatDeltaT" placeholder="Sıcaklık Farkı (°C)">
+    <button onclick="calcHeat()">Hesapla</button>
+    <p>Isı: <span id="heatResult">0</span> J</p>
+  </div>
+
+  <!-- 78. Mekanik Güç -->
+  <div class="calculator" id="calc78">
+    <h3>⚙️ Mekanik Güç</h3>
+    <p><b>Yapılan iş</b> ve <b>zaman</b> ile mekanik gücü hesaplar.</p>
+    <input type="number" id="mechWork" placeholder="İş (J)">
+    <input type="number" id="mechTime" placeholder="Zaman (s)">
+    <button onclick="calcMechPower()">Hesapla</button>
+    <p>Güç: <span id="mechResult">0</span> W</p>
+  </div>
+
+  <!-- 79. Gerilme Hesaplayıcı -->
+  <div class="calculator" id="calc79">
+    <h3>🧱 Gerilme Hesaplayıcı</h3>
+    <p><b>Kuvvet</b> ve <b>kesit alanı</b> ile gerilmeyi hesaplar.</p>
+    <input type="number" id="stressF" placeholder="Kuvvet (N)">
+    <input type="number" id="stressA" placeholder="Alan (m²)">
+    <button onclick="calcStress()">Hesapla</button>
+    <p>Gerilme: <span id="stressResult">0</span> Pa</p>
+  </div>
+
+  <!-- 80. Genleşme Hesaplayıcı -->
+  <div class="calculator" id="calc80">
+    <h3>📏 Genleşme Hesaplayıcı</h3>
+    <p>Sıcaklık farkı ile <b>uzama miktarını</b> hesaplar.</p>
+    <input type="number" id="expL" placeholder="Başlangıç Uzunluğu (m)">
+    <input type="number" id="expA" placeholder="Genleşme Katsayısı">
+    <input type="number" id="expT" placeholder="ΔT (°C)">
+    <button onclick="calcExpansion()">Hesapla</button>
+    <p>Uzama: <span id="expResult">0</span> m</p>
+  </div>
+
+  <!-- 81. Akım Yoğunluğu -->
+  <div class="calculator" id="calc81">
+    <h3>⚡ Akım Yoğunluğu</h3>
+    <p>Akım ve kesit alanı ile <b>akım yoğunluğunu</b> hesaplar.</p>
+    <input type="number" id="currentI" placeholder="Akım (A)">
+    <input type="number" id="currentA" placeholder="Alan (m²)">
+    <button onclick="calcCurrentDensity()">Hesapla</button>
+    <p>Yoğunluk: <span id="currentResult">0</span> A/m²</p>
+  </div>
+
+  <!-- 82. Frekans Dönüştürücü -->
+  <div class="calculator" id="calc82">
+    <h3>🎵 Frekans Dönüştürücü</h3>
+    <p><b>Hertz ↔ Kilohertz ↔ Megahertz</b> dönüşümü yapar.</p>
+    <input type="number" id="freqValue" placeholder="Değer">
+    <select id="freqType">
+      <option value="hz">Hz → kHz</option>
+      <option value="khz">kHz → Hz</option>
+      <option value="mhz">MHz → Hz</option>
+    </select>
+    <button onclick="calcFreq()">Dönüştür</button>
+    <p>Sonuç: <span id="freqResult">0</span></p>
+  </div>
+
+  <!-- 83. Güç Faktörü -->
+  <div class="calculator" id="calc83">
+    <h3>🔌 Güç Faktörü</h3>
+    <p>Aktif ve görünür güç ile <b>cos φ</b> hesaplar.</p>
+    <input type="number" id="pfP" placeholder="Aktif Güç (W)">
+    <input type="number" id="pfS" placeholder="Görünür Güç (VA)">
+    <button onclick="calcPF()">Hesapla</button>
+    <p>Güç Faktörü: <span id="pfResult">0</span></p>
+  </div>
+
+  <!-- 84. Devre Akımı -->
+  <div class="calculator" id="calc84">
+    <h3>🔋 Devre Akımı</h3>
+    <p>Toplam gerilim ve direnç ile <b>akımı</b> hesaplar. (I = V/R)</p>
+    <input type="number" id="circuitV" placeholder="Gerilim (V)">
+    <input type="number" id="circuitR" placeholder="Direnç (Ω)">
+    <button onclick="calcCircuit()">Hesapla</button>
+    <p>Akım: <span id="circuitResult">0</span> A</p>
+  </div>
+
+</div>
+
+<script>
+function calcOhm(){ohmResult.textContent=(+ohmV.value/+ohmI.value).toFixed(2);}
+function calcVoltageDivider(){voltResult.textContent=(+voltVin.value*(+voltR2.value/(+voltR1.value+ +voltR2.value))).toFixed(2);}
+function calcRC(){rcResult.textContent=(+capR.value*+capC.value).toFixed(3);}
+function calcElecPower(){elecPowerResult.textContent=(+powerV.value*+powerI.value).toFixed(2);}
+function calcHeat(){heatResult.textContent=(+heatM.value*+heatC.value*+heatDeltaT.value).toFixed(2);}
+function calcMechPower(){mechResult.textContent=(+mechWork.value/+mechTime.value).toFixed(2);}
+function calcStress(){stressResult.textContent=(+stressF.value/+stressA.value).toFixed(2);}
+function calcExpansion(){expResult.textContent=(+expL.value*+expA.value*+expT.value).toExponential(2);}
+function calcCurrentDensity(){currentResult.textContent=(+currentI.value/+currentA.value).toFixed(2);}
+function calcFreq(){let v=+freqValue.value;if(freqType.value=="hz")freqResult.textContent=(v/1000).toFixed(3)+" kHz";else if(freqType.value=="khz")freqResult.textContent=(v*1000).toFixed(0)+" Hz";else freqResult.textContent=(v*1e6).toFixed(0)+" Hz";}
+function calcPF(){pfResult.textContent=(+pfP.value/+pfS.value).toFixed(3);}
+function calcCircuit(){circuitResult.textContent=(+circuitV.value/+circuitR.value).toFixed(3);}
+</script>
+</div>
+<div class="main">
+
+<h2 id="section9">💼 İş, Finans ve Günlük Hayat Hesaplayıcıları</h2>
+<div class="calc-grid">
+
+  <!-- 85. Bahşiş Hesaplayıcı -->
+  <div class="calculator" id="calc85">
+    <h3>🍽 Bahşiş Hesaplayıcı</h3>
+    <p>Toplam hesap ve yüzdelik oranla <b>bahşiş tutarını</b> hesaplar.</p>
+    <input type="number" id="tipTotal" placeholder="Hesap Tutarı (₺)">
+    <input type="number" id="tipPercent" placeholder="Bahşiş (%)">
+    <button onclick="calcTip()">Hesapla</button>
+    <p>Bahşiş: <span id="tipResult">0</span> ₺</p>
+  </div>
+
+  <!-- 86. Fatura Paylaştırıcı -->
+  <div class="calculator" id="calc86">
+    <h3>💰 Fatura Paylaştırıcı</h3>
+    <p>Toplam tutarı kişi sayısına bölerek <b>kişi başı ödemeyi</b> hesaplar.</p>
+    <input type="number" id="billTotal" placeholder="Toplam Tutar (₺)">
+    <input type="number" id="billPeople" placeholder="Kişi Sayısı">
+    <button onclick="calcBill()">Hesapla</button>
+    <p>Kişi Başı: <span id="billResult">0</span> ₺</p>
+  </div>
+
+  <!-- 87. Zaman Farkı Hesaplayıcı -->
+  <div class="calculator" id="calc87">
+    <h3>🕒 Zaman Farkı</h3>
+    <p>İki tarih arasındaki <b>gün farkını</b> hesaplar.</p>
+    <input type="date" id="timeStart">
+    <input type="date" id="timeEnd">
+    <button onclick="calcDateDiff()">Hesapla</button>
+    <p>Fark: <span id="dateDiffResult">0</span> gün</p>
+  </div>
+
+  <!-- 88. Yaş Hesaplayıcı -->
+  <div class="calculator" id="calc88">
+    <h3>🎂 Yaş Hesaplayıcı</h3>
+    <p>Doğum tarihinize göre <b>yaşınızı</b> hesaplar.</p>
+    <input type="date" id="birthDate">
+    <button onclick="calcAge()">Hesapla</button>
+    <p>Yaş: <span id="ageResult">0</span> yıl</p>
+  </div>
+
+  <!-- 89. Kalori Takipçisi -->
+  <div class="calculator" id="calc89">
+    <h3>🍎 Kalori Takipçisi</h3>
+    <p>Alınan ve harcanan kaloriye göre <b>net kaloriyi</b> hesaplar.</p>
+    <input type="number" id="calIn" placeholder="Alınan Kalori">
+    <input type="number" id="calOut" placeholder="Harcanan Kalori">
+    <button onclick="calcCalories()">Hesapla</button>
+    <p>Net Kalori: <span id="calResult">0</span></p>
+  </div>
+
+  <!-- 90. Harcama Takipçisi -->
+  <div class="calculator" id="calc90">
+    <h3>📊 Harcama Takipçisi</h3>
+    <p>Gelir ve gideri girerek <b>bakiye farkını</b> gösterir.</p>
+    <input type="number" id="income" placeholder="Gelir (₺)">
+    <input type="number" id="expense" placeholder="Gider (₺)">
+    <button onclick="calcBudget()">Hesapla</button>
+    <p>Bakiye: <span id="budgetResult">0</span> ₺</p>
+  </div>
+
+  <!-- 91. Yol Süresi Hesaplayıcı -->
+  <div class="calculator" id="calc91">
+    <h3>🚗 Yol Süresi</h3>
+    <p>Mesafe ve hız girerek <b>yol süresini</b> hesaplar.</p>
+    <input type="number" id="distKm" placeholder="Mesafe (km)">
+    <input type="number" id="speedKmh" placeholder="Hız (km/h)">
+    <button onclick="calcTravel()">Hesapla</button>
+    <p>Süre: <span id="travelResult">0</span> saat</p>
+  </div>
+
+  <!-- 92. Yakıt Tüketimi -->
+  <div class="calculator" id="calc92">
+    <h3>⛽ Yakıt Tüketimi</h3>
+    <p>Yakıt miktarı ve mesafe ile <b>ortalama tüketimi</b> hesaplar.</p>
+    <input type="number" id="fuelLiters" placeholder="Yakıt (L)">
+    <input type="number" id="fuelKm" placeholder="Mesafe (km)">
+    <button onclick="calcFuel()">Hesapla</button>
+    <p>Tüketim: <span id="fuelResult">0</span> L/100km</p>
+  </div>
+
+  <!-- 93. Zaman Dönüştürücü -->
+  <div class="calculator" id="calc93">
+    <h3>⏳ Zaman Dönüştürücü</h3>
+    <p>Saniye ↔ Dakika ↔ Saat dönüşümleri yapar.</p>
+    <input type="number" id="timeValue" placeholder="Değer">
+    <select id="timeType">
+      <option value="secToMin">Saniye → Dakika</option>
+      <option value="minToHr">Dakika → Saat</option>
+      <option value="hrToMin">Saat → Dakika</option>
+    </select>
+    <button onclick="calcTimeConv()">Dönüştür</button>
+    <p>Sonuç: <span id="timeConvResult">0</span></p>
+  </div>
+
+  <!-- 94. Para Dönüştürücü -->
+  <div class="calculator" id="calc94">
+    <h3>💱 Para Dönüştürücü</h3>
+    <p>Basit oranla <b>TL ↔ USD ↔ EUR</b> dönüşümü yapar.</p>
+    <input type="number" id="moneyVal" placeholder="Tutar">
+    <select id="moneyType">
+      <option value="tlToUsd">TL → USD (≈36)</option>
+      <option value="tlToEur">TL → EUR (≈38)</option>
+      <option value="usdToTl">USD → TL</option>
+    </select>
+    <button onclick="calcMoney()">Dönüştür</button>
+    <p>Sonuç: <span id="moneyResult">0</span></p>
+  </div>
+
+  <!-- 95. Zamanlayıcı -->
+  <div class="calculator" id="calc95">
+    <h3>⏱️ Zamanlayıcı</h3>
+    <p>Girilen saniye süresince geri sayım yapar.</p>
+    <input type="number" id="timerSec" placeholder="Saniye">
+    <button onclick="startTimer()">Başlat</button>
+    <p>Kalan: <span id="timerResult">0</span> sn</p>
+  </div>
+
+  <!-- 96. Gün Sayacı -->
+  <div class="calculator" id="calc96">
+    <h3>📆 Gün Sayacı</h3>
+    <p>Belirli bir tarihe kadar kalan <b>gün sayısını</b> gösterir.</p>
+    <input type="date" id="targetDate">
+    <button onclick="calcCountdown()">Hesapla</button>
+    <p>Kalan: <span id="countResult">0</span> gün</p>
+  </div>
+
+</div>
+
+<script>
+function calcTip(){tipResult.textContent=(tipTotal.value*tipPercent.value/100).toFixed(2);}
+function calcBill(){billResult.textContent=(billTotal.value/billPeople.value).toFixed(2);}
+function calcDateDiff(){let s=new Date(timeStart.value),e=new Date(timeEnd.value);dateDiffResult.textContent=Math.round((e-s)/86400000);}
+function calcAge(){let b=new Date(birthDate.value),t=new Date();ageResult.textContent=t.getFullYear()-b.getFullYear();}
+function calcCalories(){calResult.textContent=(calIn.value-calOut.value).toFixed(0);}
+function calcBudget(){budgetResult.textContent=(income.value-expense.value).toFixed(2);}
+function calcTravel(){travelResult.textContent=(distKm.value/speedKmh.value).toFixed(2);}
+function calcFuel(){fuelResult.textContent=((fuelLiters.value/fuelKm.value)*100).toFixed(2);}
+function calcTimeConv(){let v=+timeValue.value;timeConvResult.textContent=timeType.value=="secToMin"?(v/60).toFixed(2):timeType.value=="minToHr"?(v/60).toFixed(2):(v*60).toFixed(2);}
+function calcMoney(){let v=+moneyVal.value;if(moneyType.value=="tlToUsd")moneyResult.textContent=(v/36).toFixed(2)+" USD";else if(moneyType.value=="tlToEur")moneyResult.textContent=(v/38).toFixed(2)+" EUR";else moneyResult.textContent=(v*36).toFixed(2)+" TL";}
+let timerInterval;function startTimer(){let sec=+timerSec.value;clearInterval(timerInterval);timerResult.textContent=sec;timerInterval=setInterval(()=>{if(sec>0){sec--;timerResult.textContent=sec;}else clearInterval(timerInterval);},1000);}
+function calcCountdown(){let t=new Date(targetDate.value),now=new Date();countResult.textContent=Math.ceil((t-now)/86400000);}
+</script>
+</div>
+<div class="main">
+
+<h2 id="section10">💻 Teknoloji & Eğlencelik Hesaplayıcıları</h2>
+<div class="calc-grid">
+
+  <!-- 97. Ekran PPI Hesaplayıcı -->
+  <div class="calculator" id="calc97">
+    <h3>🖥️ Ekran PPI Hesaplayıcı</h3>
+    <p>Ekran boyutu ve çözünürlükle <b>piksel yoğunluğunu (PPI)</b> hesaplar.</p>
+    <input type="number" id="ppiWidth" placeholder="Genişlik (px)">
+    <input type="number" id="ppiHeight" placeholder="Yükseklik (px)">
+    <input type="number" id="ppiSize" placeholder="Ekran Boyutu (inch)">
+    <button onclick="calcPPI()">Hesapla</button>
+    <p>PPI: <span id="ppiResult">0</span></p>
+  </div>
+
+  <!-- 98. FPS / Hz Dönüştürücü -->
+  <div class="calculator" id="calc98">
+    <h3>🎮 FPS / Hz Dönüştürücü</h3>
+    <p><b>FPS → Hz</b> veya <b>Hz → FPS</b> dönüşümü yapar.</p>
+    <input type="number" id="fpsValue" placeholder="Değer">
+    <select id="fpsType">
+      <option value="fpsToHz">FPS → Hz</option>
+      <option value="hzToFps">Hz → FPS</option>
+    </select>
+    <button onclick="calcFPS()">Dönüştür</button>
+    <p>Sonuç: <span id="fpsResult">0</span></p>
+  </div>
+
+  <!-- 99. Dosya Aktarım Süresi -->
+  <div class="calculator" id="calc99">
+    <h3>📁 Dosya Aktarım Süresi</h3>
+    <p>Dosya boyutu ve hızla <b>tahmini aktarım süresini</b> hesaplar.</p>
+    <input type="number" id="fileSize" placeholder="Dosya (MB)">
+    <input type="number" id="speedMbps" placeholder="Hız (Mbps)">
+    <button onclick="calcTransfer()">Hesapla</button>
+    <p>Süre: <span id="transferResult">0</span> sn</p>
+  </div>
+
+  <!-- 100. Pil Ömrü Tahmini -->
+  <div class="calculator" id="calc100">
+    <h3>🔋 Pil Ömrü Tahmini</h3>
+    <p>Batarya kapasitesi ve tüketimle <b>tahmini pil ömrünü</b> hesaplar.</p>
+    <input type="number" id="batteryCap" placeholder="Kapasite (mAh)">
+    <input type="number" id="batteryUse" placeholder="Tüketim (mA)">
+    <button onclick="calcBattery()">Hesapla</button>
+    <p>Ömür: <span id="batteryResult">0</span> saat</p>
+  </div>
+
+  <!-- 101. Rastgele Sayı Üretici -->
+  <div class="calculator" id="calc101">
+    <h3>🎲 Rastgele Sayı Üretici</h3>
+    <p>İki değer arasında <b>rastgele bir sayı</b> üretir.</p>
+    <input type="number" id="randMin" placeholder="Min">
+    <input type="number" id="randMax" placeholder="Maks">
+    <button onclick="calcRandom()">Üret</button>
+    <p>Sonuç: <span id="randResult">0</span></p>
+  </div>
+
+</div>
+
+<script>
+function calcPPI(){
+  const w=+ppiWidth.value,h=+ppiHeight.value,size=+ppiSize.value;
+  ppiResult.textContent=(Math.sqrt(w**2+h**2)/size).toFixed(1);
+}
+function calcFPS(){
+  const v=+fpsValue.value;
+  fpsResult.textContent=fpsType.value==="fpsToHz"?(v+" Hz"):(v+" FPS");
+}
+function calcTransfer(){
+  const s=+fileSize.value,speed=+speedMbps.value;
+  transferResult.textContent=((s*8)/speed).toFixed(1);
+}
+function calcBattery(){
+  const cap=+batteryCap.value,use=+batteryUse.value;
+  batteryResult.textContent=(cap/use).toFixed(1);
+}
+function calcRandom(){
+  const min=+randMin.value,max=+randMax.value;
+  randResult.textContent=Math.floor(Math.random()*(max-min+1))+min;
+}
+</script>
+</div>
+
+
+<footer itemscope itemtype="https://schema.org/WPFooter" style="background:#f8fafc; border-top:2px solid #e2e8f0; padding:40px 20px; margin-top:40px; font-family:Arial, sans-serif; color:#0f172a;">
+  <div style="max-width:1200px; margin:auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:30px;">
+    
+    <!-- About Section -->
+    <div>
+      <h3 style="color:#0284c7;">🧮 101 Hesapla</h3>
+      <p><strong>101 Hesapla</strong>, finans, sağlık, mühendislik, eğitim ve günlük yaşam için 
+      <b>101 farklı online hesaplayıcıyı</b> bir araya getirir. Hızlı, güvenli ve eğlenceli hesaplamalar tek sayfada!</p>
+    </div>
+
+    <!-- Quick Navigation -->
+    <div>
+      <h4 style="color:#0284c7;">🔗 Hızlı Erişim</h4>
+      <ul style="list-style:none; padding:0; margin:0; line-height:1.8;">
+        <li><a href="#section1" style="color:#0f172a; text-decoration:none;">Temel Matematik</a></li>
+        <li><a href="#section2" style="color:#0f172a; text-decoration:none;">Finans & Faiz</a></li>
+        <li><a href="#section3" style="color:#0f172a; text-decoration:none;">Sağlık & Fitness</a></li>
+        <li><a href="#section4" style="color:#0f172a; text-decoration:none;">Fizik & Mühendislik</a></li>
+        <li><a href="#section5" style="color:#0f172a; text-decoration:none;">Zaman & Tarih</a></li>
+        <li><a href="#section10" style="color:#0f172a; text-decoration:none;">Teknoloji & Eğlence</a></li>
+      </ul>
+    </div>
+
+    <!-- Legal / Sitemap -->
+    <div>
+      <h4 style="color:#0284c7;">📜 Site Bilgileri</h4>
+      <ul style="list-style:none; padding:0; margin:0; line-height:1.8;">
+        <li><a href="/hakkimizda.html" style="color:#0f172a; text-decoration:none;">Hakkımızda</a></li>
+        <li><a href="/iletisim.html" style="color:#0f172a; text-decoration:none;">İletişim</a></li>
+        <li><a href="/gizlilik-politikasi.html" style="color:#0f172a; text-decoration:none;">Gizlilik Politikası</a></li>
+        <li><a href="/kullanim-kosullari.html" style="color:#0f172a; text-decoration:none;">Kullanım Koşulları</a></li>
+        <li><a href="/sitemap.xml" style="color:#0f172a; text-decoration:none;">Sitemap</a></li>
+      </ul>
+    </div>
+
+    <!-- Newsletter or Social -->
+    <div>
+      <h4 style="color:#0284c7;">💬 Güncellemeleri Kaçırma</h4>
+      <p>Yeni hesaplayıcılar eklendiğinde haberdar olun!</p>
+      <form action="#" method="POST" style="display:flex; gap:8px;">
+        <input type="email" placeholder="E-posta adresiniz" required style="flex:1; padding:8px; border:1px solid #94a3b8; border-radius:6px;">
+        <button type="submit" style="background:#0284c7; color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer;">Gönder</button>
+      </form>
+      <div style="margin-top:10px;">
+        <a href="#" aria-label="Twitter" style="margin-right:8px; color:#0284c7;">🐦</a>
+        <a href="#" aria-label="Facebook" style="margin-right:8px; color:#0284c7;">📘</a>
+        <a href="#" aria-label="Instagram" style="color:#0284c7;">📸</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Copyright -->
+  <div style="text-align:center; border-top:1px solid #e2e8f0; margin-top:40px; padding-top:15px; font-size:14px; color:#334155;">
+    <p>© <span id="year"></span> <strong>101 Hesapla</strong> — Tüm Hakları Saklıdır.</p>
+    <p style="font-size:12px;">Oluşturulma: <a href="https://101hesapla.pages.dev/" style="color:#0284c7; text-decoration:none;">101hesapla.pages.dev</a></p>
+  </div>
+
+  <script>
+    // Dynamic year for copyright
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </footer>
 
-<!-- Fun Emoji JS -->
-<script>
-  // Emoji rain effect
-  const emojiContainer = document.getElementById('emoji-container');
-  function createEmoji() {
-    const emoji = document.createElement('div');
-    emoji.textContent = '🧮';
-    emoji.style.position = 'absolute';
-    emoji.style.fontSize = Math.random() * 30 + 20 + 'px';
-    emoji.style.left = Math.random() * 100 + '%';
-    emoji.style.top = '-50px';
-    emoji.style.opacity = Math.random();
-    emojiContainer.appendChild(emoji);
-
-    let top = -50;
-    const fall = setInterval(() => {
-      top += 2 + Math.random() * 3;
-      emoji.style.top = top + 'px';
-      if (top > emojiContainer.offsetHeight) {
-        clearInterval(fall);
-        emoji.remove();
-      }
-    }, 20);
-  }
-
-  setInterval(createEmoji, 500);
-</script>
 
 </body>
 </html>
